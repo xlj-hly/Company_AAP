@@ -1,0 +1,52 @@
+# 生成文件与目录
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+/dist/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/wheel/
+*.egg-info/
+.installed.cfg
+*.egg
+logs/
+
+# 虚拟环境
+/.venv/
+/venv/
+/env/
+/ENV/
+
+# Poetry 生成的文件（建议保留 poetry.lock）
+# poetry.lock  # 取消注释则忽略锁定文件（不推荐）
+# poetry.toml
+
+# 缓存文件
+.pytest_cache/
+.coverage
+.hypothesis/
+.mypy_cache/
+.tox/
+
+# IDE 配置
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.user
+*.suo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 环境变量文件
+.env
+.env.local
+.flaskenv
